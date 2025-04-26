@@ -9,7 +9,8 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   server: {
-    host: '0.0.0.0',  // <- Added this line
+    host: '0.0.0.0',
+    allowedHosts: ['omex-frontend.onrender.com'], // <- Added this line
     proxy: {
       '/api': {
         target: 'https://omex-final.onrender.com/',
