@@ -1,6 +1,6 @@
 {
   "proxy": "https://omex-final.onrender.com",
-  "name": "omex-learning-platform",
+  "name": "xemo-learning-platform",
   "private": true,
   "version": "0.0.0",
   "type": "module",

@@ -61,7 +61,7 @@ export const StudyStreaks: React.FC = () => {
           }))
         };
 
-        const response = await fetch('https://omex-final.onrender.com/api/streaks/initialize', {
+        const response = await fetch('/api/streaks/initialize', {
           method: 'POST',
           credentials: 'include',
           headers: {
